@@ -33,6 +33,7 @@ TECH STACK
 
 PROJECT STRUCTURE
 -----------------
+```bash
 Alibris-WebScrapping/
 
 │
@@ -42,7 +43,7 @@ Alibris-WebScrapping/
 │   └── products.csv      # Output dataset
 ├── requirements.txt      # Dependencies
 └── README.md
-
+```
 
 INSTALLATION
 ------------
