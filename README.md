@@ -90,11 +90,12 @@ The output file will contain scraped product information such as:
 
 EXAMPLE
 -------
+```bash
 Title              | Author         | Price   | Condition
 --------------------------------------------------------
 The Alchemist      | Paulo Coelho   | $10.99  | New
 Atomic Habits      | James Clear    | $12.50  | Used
-
+```
 USE CASES
 --------
 - Market research
