@@ -45,10 +45,10 @@ Alibris-WebScrapping/
 INSTALLATION
 ------------
 1. Clone the repository:
-
-   git clone https://github.com/Nimra064/Alibris-WebScrapping.git
+```bash
+   git clone https://github.com/Nimra064/Alibris-WebScrapping.git </br>
    cd Alibris-WebScrapping
-
+```
 
 2. Create virtual environment (optional):
 
