@@ -37,10 +37,7 @@ PROJECT STRUCTURE
 Alibris-WebScrapping/
 
 │
-├── scraper.py            # Main scraping script
-├── utils.py              # Helper functions (cleaning/parsing)
-├── data/
-│   └── products.csv      # Output dataset
+├── FastAPIProject.py            # Main scraping script
 ├── requirements.txt      # Dependencies
 └── README.md
 ```
