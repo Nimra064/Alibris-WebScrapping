@@ -103,21 +103,6 @@ USE CASES
 - Machine learning datasets
 - Academic research
 
-DISCLAIMER
----------
-This project is for educational purposes only.
-Always respect website terms of service and robots.txt when scraping data.
-
-CONTRIBUTING
------------
-1. Fork the repo
-2. Create a new branch
-3. Commit changes
-4. Submit a pull request
-
 LICENSE
 ------
 This project is open-source and available under the MIT License.
-
-* Convert this into a **professional GitHub README.md with badges**
-* Or make it **portfolio-ready with project screenshots + diagrams**
