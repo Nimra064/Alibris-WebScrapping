@@ -34,6 +34,7 @@ TECH STACK
 PROJECT STRUCTURE
 -----------------
 Alibris-WebScrapping/
+
 │
 ├── scraper.py            # Main scraping script
 ├── utils.py              # Helper functions (cleaning/parsing)
@@ -42,30 +43,56 @@ Alibris-WebScrapping/
 ├── requirements.txt      # Dependencies
 └── README.md
 
+
 INSTALLATION
------------
+------------
 1. Clone the repository:
+
    git clone https://github.com/Nimra064/Alibris-WebScrapping.git
    cd Alibris-WebScrapping
 
+
 2. Create virtual environment (optional):
+
    python -m venv venv
-   source venv/bin/activate   (Mac/Linux)
-   venv\Scripts\activate      (Windows)
+
+   For Mac/Linux:
+   source venv/bin/activate
+
+   For Windows:
+   venv\Scripts\activate
+
 
 3. Install dependencies:
+
    pip install -r requirements.txt
 
+
 HOW TO RUN
-----------
-Run the scraper using:
+-----------
+Run the scraper script using the following command:
 
    python scraper.py
 
-After execution, the scraped data will be saved in the data/ folder.
 
-OUTPUT EXAMPLE
--------------
+After running the script, the scraped data will be saved automatically in:
+
+   data/products.csv
+
+
+OUTPUT
+------
+The output file will contain scraped product information such as:
+
+- Title
+- Author
+- Price
+- Condition
+- Ratings (if available)
+
+
+EXAMPLE
+-------
 Title              | Author         | Price   | Condition
 --------------------------------------------------------
 The Alchemist      | Paulo Coelho   | $10.99  | New
