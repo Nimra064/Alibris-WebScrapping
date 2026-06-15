@@ -1,1 +1,99 @@
-# Alibris-WebScrapping
+ALIBRIS WEB SCRAPING PROJECT
+=============================
+
+OVERVIEW
+--------
+This project is a web scraping tool for Alibris (an online marketplace for books, music, and movies).
+It extracts product information such as titles, prices, authors, ratings, and availability from Alibris listings and stores the data for analysis.
+
+The project is built using Python and demonstrates how to automate data collection from e-commerce websites for research and analytics purposes.
+
+FEATURES
+--------
+- Scrapes book/product listings from Alibris
+- Extracts key details:
+  - Title
+  - Author
+  - Price
+  - Condition (new/used)
+  - Ratings (if available)
+- Saves data into CSV / JSON format
+- Handles pagination for multiple pages
+- Cleans and structures scraped data
+- Basic request handling to avoid blocking
+- Ready for data analysis or visualization
+
+TECH STACK
+----------
+- Python 3.x
+- Requests
+- BeautifulSoup (bs4)
+- Pandas
+- lxml / html.parser
+
+PROJECT STRUCTURE
+-----------------
+Alibris-WebScrapping/
+│
+├── scraper.py            # Main scraping script
+├── utils.py              # Helper functions (cleaning/parsing)
+├── data/
+│   └── products.csv      # Output dataset
+├── requirements.txt      # Dependencies
+└── README.md
+
+INSTALLATION
+-----------
+1. Clone the repository:
+   git clone https://github.com/Nimra064/Alibris-WebScrapping.git
+   cd Alibris-WebScrapping
+
+2. Create virtual environment (optional):
+   python -m venv venv
+   source venv/bin/activate   (Mac/Linux)
+   venv\Scripts\activate      (Windows)
+
+3. Install dependencies:
+   pip install -r requirements.txt
+
+HOW TO RUN
+----------
+Run the scraper using:
+
+   python scraper.py
+
+After execution, the scraped data will be saved in the data/ folder.
+
+OUTPUT EXAMPLE
+-------------
+Title              | Author         | Price   | Condition
+--------------------------------------------------------
+The Alchemist      | Paulo Coelho   | $10.99  | New
+Atomic Habits      | James Clear    | $12.50  | Used
+
+USE CASES
+--------
+- Market research
+- Book price comparison
+- Data analysis projects
+- Machine learning datasets
+- Academic research
+
+DISCLAIMER
+---------
+This project is for educational purposes only.
+Always respect website terms of service and robots.txt when scraping data.
+
+CONTRIBUTING
+-----------
+1. Fork the repo
+2. Create a new branch
+3. Commit changes
+4. Submit a pull request
+
+LICENSE
+------
+This project is open-source and available under the MIT License.
+
+* Convert this into a **professional GitHub README.md with badges**
+* Or make it **portfolio-ready with project screenshots + diagrams**
