@@ -46,12 +46,12 @@ INSTALLATION
 ------------
 1. Clone the repository:
 ```bash
-   git clone https://github.com/Nimra064/Alibris-WebScrapping.git </br>
+   git clone https://github.com/Nimra064/Alibris-WebScrapping.git
    cd Alibris-WebScrapping
 ```
 
 2. Create virtual environment (optional):
-
+```bash
    python -m venv venv
 
    For Mac/Linux:
@@ -59,20 +59,19 @@ INSTALLATION
 
    For Windows:
    venv\Scripts\activate
-
+```
 
 3. Install dependencies:
-
+```bash
    pip install -r requirements.txt
-
+```
 
 HOW TO RUN
 -----------
 Run the scraper script using the following command:
-
+```bash
    python scraper.py
-
-
+```
 After running the script, the scraped data will be saved automatically in:
 
    data/products.csv
